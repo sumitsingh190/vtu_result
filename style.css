@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #eaeaea;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: #2d2d2d;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    color: #d4c7a4;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    gap: 15px;
+}
+
+.logo {
+    width: 100px;
+    margin-left: 20px;
+}
+
+.header-text p {
+    font-size: 18px;
+    color: #d4c7a4;
+    margin: 0;
+}
+
+.header-text h1 {
+    color: #d4c7a4;
+    font-size: 24px;
+    margin: 0;
+}
+
+/* Heading Section Styling */
+.heading-section {
+    background-color: #f5bca4;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.heading-section h2 {
+    color: #8d5725;
+    font-size: 20px;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 25px; /* Increased padding for overall height */
+    max-width: 500px;
+    width: 90%;
+    margin-top: 20px; /* Added space above the container */
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container-heading {
+    background-color: #a8e6cf;
+    padding: 12px; /* Increased padding for more height */
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px; /* Space below each input field */
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.captcha-container {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Space between captcha elements */
+    padding: 10px 0; /* Add padding to increase overall height */
+}
+
+#captchaInput {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#captchaCanvas {
+    border-radius: 4px;
+    padding: 5px; /* Add padding inside canvas for larger appearance */
+}
+
+#refreshCaptcha {
+    background: none;
+    border: none;
+    font-size: 20px; /* Larger refresh icon */
+    cursor: pointer;
+    color: #333;
+    padding: 0 10px; /* Padding for better clickable area */
+}
+
+#refreshCaptcha:hover {
+    color: #007bff; /* Change color on hover */
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px; /* Space above button group */
+}
+
+button.submit-btn, button.cancel-btn {
+    width: 48%;
+    padding: 12px; /* Increased padding for larger button size */
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.submit-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.submit-btn:hover {
+    background-color: #45a049;
+}
+
+.cancel-btn {
+    background-color: #f44336;
+    color: white;
+}
+
+.cancel-btn:hover {
+    background-color: #e53935;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #007bff;
+    cursor: pointer;
+    text-align: center;
+}

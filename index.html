@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VTU Provisional Result</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="logo.png" alt="VTU Logo" class="logo">
+            <div class="header-text">
+                <p>ವಿಶ್ವೇಶ್ವರಯ್ಯ ತಾಂತ್ರಿಕ ವಿಶ್ವವಿದ್ಯಾಲಯ, ಬೆಳಗಾವಿ</p>
+                <h1>VISVESVARAYA TECHNOLOGICAL UNIVERSITY, BELAGAVI</h1>
+            </div>
+        </div>
+    </header>
+    <br>
+    <!-- Separate Heading Section -->
+    <div class="heading-section">
+        <h2>ವಿ.ತಾ.ವಿ ತಾತ್ಕಾಲಿಕ ಫಲಿತಾಂಶ.<br> VTU PROVISIONAL RESULT.</h2>
+    </div>
+
+    <div class="container">
+        <div class="container-heading">
+            <h3>June / July - 2024 EXAMINATION RESULTS.</h3>
+        </div>
+        
+        <form id="result-form">
+            <input type="text" id="usn" placeholder="ENTER USN" required>
+            <div class="captcha-container">
+                <input type="text" id="captchaInput" placeholder="Enter Captcha Code" required>
+                <canvas id="captchaCanvas" width="120" height="40"></canvas>
+                <button type="button" id="refreshCaptcha" onclick="generateCaptcha()" aria-label="Refresh CAPTCHA">
+                    &#x21bb;
+                </button>
+            </div>            
+            
+
+            <div class="button-group">
+                <button type="submit" class="submit-btn">ಸೇರಿಸಿ / SUBMIT</button>
+                <button type="button" class="cancel-btn">ರದ್ದುಮಾಡಿ / CANCEL</button>
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
