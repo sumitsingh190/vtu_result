@@ -76,7 +76,8 @@ function validateCaptcha() {
 function downloadPDF() {
     const link = document.createElement("a");
     link.href = pdfUrl;
-    link.download = "VTU 6th SEM RESULT.pdf"; // Specify the name for the downloaded file
+    link.setAttribute("download", "VTU 6th SEM RESULT.pdf"); // Set the download attribute
+    link.setAttribute("type", "application/pdf"); // Set type to application/pdf
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link); // Clean up the DOM
