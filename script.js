@@ -1,5 +1,5 @@
 // URL of the PDF file to download
-const pdfUrl = "./VTU Exam Form.pdf"; // Ensure this path is correct
+const pdfUrl = "./VTU ALL SEM RESULTS.pdf"; // Ensure this path is correct
 let captchaText = ''; // Store the generated CAPTCHA text
 
 // Function to generate a random CAPTCHA code and display it on the canvas
